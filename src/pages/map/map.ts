@@ -1,27 +1,24 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { RegisteredPage } from '../registered/registered';
 
 /**
- * Generated class for the ForgotPasswordPage page.
+ * Generated class for the MapPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
  */
 
 @Component({
-  selector: 'page-forgot-password',
-  templateUrl: 'forgot-password.html',
+  selector: 'page-map',
+  templateUrl: 'map.html',
 })
-export class ForgotPasswordPage {
-
-  registered = RegisteredPage;
+export class MapPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad ForgotPasswordPage');
+    console.log('ionViewDidLoad MapPage');
   }
 
 }
