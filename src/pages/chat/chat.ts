@@ -17,6 +17,10 @@ export class ChatPage {
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
+  chats = [
+    {name: "阿凡達", message: "晚餐吃什麼？", avatar: "http://upload.dianyingjie.com/2017/0404/1491275068881.jpeg"}
+  ]
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChatPage');
   }
