@@ -1,0 +1,13 @@
+<ion-header>
+    <ion-navbar>
+        <page-navbar></page-navbar>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-tabs>
+        <ion-tab [root]="chatRoot" tabTitle="Chat" tabIcon="ios-chatbubbles-outline"></ion-tab>
+        <ion-tab [root]="mapRoot" tabTitle="Map" tabIcon="ios-pin-outline"></ion-tab>
+        <ion-tab [root]="landscapeRoot" tabTitle="Landscape" tabIcon="ios-image-outline"></ion-tab>
+        <ion-tab [root]="dynamicRoot" tabTitle="Dynamic" tabIcon="ios-time-outline"></ion-tab>
+    </ion-tabs>
+</ion-content>
